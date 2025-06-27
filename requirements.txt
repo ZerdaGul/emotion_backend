@@ -4,3 +4,4 @@ torch
 transformers
 deep-translator
 gdown
+protobuf

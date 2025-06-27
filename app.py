@@ -14,7 +14,7 @@ MODEL_DIR = os.path.join(os.path.dirname(__file__), "model")
 if not os.path.exists(MODEL_DIR):
     print("Model not found. Downloading from Google Drive...")
     zip_path = os.path.join(os.path.dirname(__file__), "model.zip")
-    gdown.download("https://drive.google.com/uc?id=1isfRttf8iNomlKil8SYEsCb9VuOWdqin", zip_path, quiet=False)
+    gdown.download("https://drive.google.com/uc?id=1fiyPnTzqGbW2F9-4hM4RYKJ9DmyxoBSB", zip_path, quiet=False)
 
     with zipfile.ZipFile(zip_path, 'r') as zip_ref:
         zip_ref.extractall(os.path.dirname(zip_path))
